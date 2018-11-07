@@ -1,0 +1,134 @@
+{
+  "paragraphs": [
+    {
+      "text": "spark.version",
+      "user": "anonymous",
+      "dateUpdated": "Nov 7, 2018 7:06:59 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res0: String \u003d 2.3.0.2.6.5.0-292\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541617400368_1446064536",
+      "id": "20181107-190320_384773057",
+      "dateCreated": "Nov 7, 2018 7:03:20 PM",
+      "dateStarted": "Nov 7, 2018 7:06:59 PM",
+      "dateFinished": "Nov 7, 2018 7:06:59 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "import org.apache.spark.sql.SparkSession",
+      "user": "anonymous",
+      "dateUpdated": "Nov 7, 2018 7:08:59 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.SparkSession\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541617527246_-1349941826",
+      "id": "20181107-190527_1097871114",
+      "dateCreated": "Nov 7, 2018 7:05:27 PM",
+      "dateStarted": "Nov 7, 2018 7:08:59 PM",
+      "dateFinished": "Nov 7, 2018 7:08:59 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val spark \u003d SparkSession\n  .builder()\n  .appName(\"Spark SQL Example\")\n  .getOrCreate()",
+      "user": "anonymous",
+      "dateUpdated": "Nov 7, 2018 7:09:15 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "spark: org.apache.spark.sql.SparkSession \u003d org.apache.spark.sql.SparkSession@7d18710b\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541617739637_2134114351",
+      "id": "20181107-190859_1969473881",
+      "dateCreated": "Nov 7, 2018 7:08:59 PM",
+      "dateStarted": "Nov 7, 2018 7:09:15 PM",
+      "dateFinished": "Nov 7, 2018 7:09:16 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1541617755507_-640912544",
+      "id": "20181107-190915_2023780750",
+      "dateCreated": "Nov 7, 2018 7:09:15 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "testgit",
+  "id": "2DWVMVKHC",
+  "angularObjects": {
+    "2CHS8UYQQ:shared_process": [],
+    "2C8A4SZ9T_livy2:shared_process": [],
+    "2CK8A9MEG:shared_process": [],
+    "2C4U48MY3_spark2:shared_process": [],
+    "2CKAY1A8Y:shared_process": [],
+    "2CKEKWY8Z:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
